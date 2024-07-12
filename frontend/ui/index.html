@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.774115235580">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.5.0">
+
+    <!-- Primary Meta Tags -->
+    <title>UI</title>
+    <meta name="title" content="UI">
+    <meta name="description" content="https://htmltemplates.co/">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://piyush-linux.github.io/frontend/ui/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://piyush-linux.github.io/frontend/ui/">
+    <meta property="og:title" content="UI">
+    <meta property="og:description" content="https://htmltemplates.co/">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://piyush-linux.github.io/frontend/ui/">
+    <meta property="twitter:title" content="UI">
+    <meta property="twitter:description" content="https://htmltemplates.co/">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../resources/css/retype.css?v=3.5.0.774115235580" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.774115235580" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.774115235580" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Project Name</span>
+                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Docs</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="ui" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ui">#</doc-anchor-trigger>
+        <span>UI</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="html-templates">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#html-templates">#</doc-anchor-trigger>
+        <span>HTML Templates</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://htmltemplates.co/">https://htmltemplates.co/</a></li>
+<li><a href="https://themewagon.com/theme-price/free/">https://themewagon.com/theme-price/free/</a></li>
+<li><a href="https://templated.co/">https://templated.co/</a></li>
+<li><a href="https://templatemo.com/">https://templatemo.com/</a></li>
+<li><a href="https://www.zerotheme.com/">https://www.zerotheme.com/</a></li>
+<li><a href="https://www.free-css.com">https://www.free-css.com</a></li>
+<li><a href="https://freehtml5.co/">https://freehtml5.co/</a></li>
+<li><a href="https://themesfor.app/all-themes">https://themesfor.app/all-themes</a></li>
+<li><a href="https://bootstraptaste.com/">https://bootstraptaste.com/</a></li>
+<li><a href="https://bootstrapmade.com/">https://bootstrapmade.com/</a></li>
+<li>Dashboard : <a href="https://keenthemes.com/">https://keenthemes.com/</a></li>
+<li><a href="https://htmlrev.com/">https://htmlrev.com/</a></li>
+<li><a href="https://w3layouts.com/">https://w3layouts.com/</a></li>
+<li><a href="https://www.tooplate.com/">https://www.tooplate.com/</a></li>
+<li><a href="https://uideck.com/">https://uideck.com/</a></li>
+<li><a href="https://www.w3schools.com/w3css/w3css_templates.asp">https://www.w3schools.com/w3css/w3css_templates.asp</a></li>
+<li></li>
+<li><a href="https://styleshout.com/free-templates/">https://styleshout.com/free-templates/</a></li>
+<li><a href="https://www.html5xcss3.com/">https://www.html5xcss3.com/</a></li>
+<li>OneTime : <a href="https://cruip.com/free-templates/">https://cruip.com/free-templates/</a></li>
+<li>templatesjungle.com</li>
+<li><a href="https://astro.build/themes/">https://astro.build/themes/</a></li>
+<li><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></li>
+<li><a href="https://jamstackthemes.dev/">https://jamstackthemes.dev/</a></li>
+<li><a href="https://jekyllthemes.io/free">https://jekyllthemes.io/free</a></li>
+<li><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></li>
+<li><a href="https://html5up.net/">https://html5up.net/</a></li>
+</ul>
+<doc-anchor-target id="web-design-templates">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#web-design-templates">#</doc-anchor-trigger>
+        <span>Web Design Templates</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Pinterest</li>
+<li><a href="https://themejam.gatsbyjs.org/showcase/">https://themejam.gatsbyjs.org/showcase/</a></li>
+<li></li>
+<li><a href="https://elements.envato.com/web-templates">https://elements.envato.com/web-templates</a></li>
+<li><a href="https://getpublii.com/showcase/">https://getpublii.com/showcase/</a></li>
+<li><a href="https://fresh.deno.dev/showcase">https://fresh.deno.dev/showcase</a></li>
+<li><a href="https://statichunt.com/jekyll-themes">https://statichunt.com/jekyll-themes</a></li>
+<li><a href="https://www.toools.design/ui-web-design-inspiration-websites">https://www.toools.design/ui-web-design-inspiration-websites</a></li>
+<li><a href="https://uiverse.io/">https://uiverse.io/</a></li>
+<li><a href="https://landings.dev/">https://landings.dev/</a></li>
+<li><a href="https://uigarage.net/">https://uigarage.net/</a></li>
+<li><a href="https://www.landingfolio.com/">https://www.landingfolio.com/</a></li>
+<li><a href="https://dribbble.com/search/business">https://dribbble.com/search/business</a></li>
+<li><a href="https://tympanus.net/codrops/">https://tympanus.net/codrops/</a></li>
+<li><a href="https://www.behance.net/">https://www.behance.net/</a></li>
+<li><a href="https://onepagelove.com/">https://onepagelove.com/</a></li>
+<li><a href="https://land-book.com/gallery">https://land-book.com/gallery</a></li>
+<li><a href="https://pixelarity.com/">https://pixelarity.com/</a></li>
+<li><a href="https://smarteyeapps.com/free-website-templates?page=2">https://smarteyeapps.com/free-website-templates?page=2</a></li>
+<li><a href="https://www.themevault.net/">https://www.themevault.net/</a></li>
+<li><a href="https://jekyll-themes.com/free">https://jekyll-themes.com/free</a></li>
+</ul>
+<doc-anchor-target id="illustration">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#illustration">#</doc-anchor-trigger>
+        <span>Illustration</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>ill : pixcap.com</li>
+<li><a href="https://scale.flexiple.com/illustrations/">https://scale.flexiple.com/illustrations/</a></li>
+<li><a href="https://www.pixeltrue.com/packs">https://www.pixeltrue.com/packs</a></li>
+<li><a href="https://ui8.net/margose/products/free-12-illustrationicon-and-character-set">https://ui8.net/margose/products/free-12-illustrationicon-and-character-set</a></li>
+<li><a href="https://illlustrations.co/">https://illlustrations.co/</a></li>
+<li><a href="https://opendoodles.com/">https://opendoodles.com/</a></li>
+<li>deignstripe.com</li>
+<li>storyset.com</li>
+<li>avatar : <a href="https://bigheads.io/">https://bigheads.io/</a></li>
+<li><a href="https://freeillustrations.xyz/">https://freeillustrations.xyz/</a></li>
+<li><a href="https://undraw.co/illustrationsAn">https://undraw.co/illustrationsAn</a></li>
+<li><a href="https://www.manypixels.co/gallery/ManyPixels">https://www.manypixels.co/gallery/ManyPixels</a></li>
+<li><a href="https://illlustrations.co/100">https://illlustrations.co/100</a></li>
+<li><a href="https://isometric.online/This">https://isometric.online/This</a></li>
+<li><a href="https://www.glazestock.com/Glaze">https://www.glazestock.com/Glaze</a></li>
+<li><a href="https://lukaszadam.com/illustrationsLukasz">https://lukaszadam.com/illustrationsLukasz</a></li>
+<li><a href="https://www.humaaans.comHumaaans">https://www.humaaans.comHumaaans</a></li>
+<li><a href="https://woobro.design/Woobro">https://woobro.design/Woobro</a></li>
+<li><a href="https://fresh-folk.com/Similar">https://fresh-folk.com/Similar</a></li>
+<li><a href="https://www.opendoodles.com/Open">https://www.opendoodles.com/Open</a></li>
+<li><a href="https://game-icons.net/">https://game-icons.net/</a></li>
+<li><a href="https://www.logotouse.com/">https://www.logotouse.com/</a></li>
+<li><a href="https://pimpmydrawing.com/">https://pimpmydrawing.com/</a></li>
+<li><a href="https://www.flaticon.com/">https://www.flaticon.com/</a></li>
+<li>icons8.com</li>
+<li><a href="https://iconmonstr.com/">https://iconmonstr.com/</a></li>
+<li><a href="https://konpa.github.io/devicon/">https://konpa.github.io/devicon/</a></li>
+<li><a href="https://icons8.com/icons/set/emoji">https://icons8.com/icons/set/emoji</a></li>
+<li><a href="https://joeschmoe.io/">https://joeschmoe.io/</a></li>
+<li><a href="https://www.karthiksrinivas.in/charco">https://www.karthiksrinivas.in/charco</a></li>
+<li><a href="https://www.veila.me/freebies/scandinavian-houses-free-vector-images">https://www.veila.me/freebies/scandinavian-houses-free-vector-images</a></li>
+<li><a href="https://absurd.design/">https://absurd.design/</a></li>
+<li><a href="https://github.com/MariaLetta/mega-doodles-pack">https://github.com/MariaLetta/mega-doodles-pack</a></li>
+<li><a href="https://iradesign.io/">https://iradesign.io/</a></li>
+<li><a href="https://www.isometriclove.com/">https://www.isometriclove.com/</a></li>
+<li><a href="https://personas.draftbit.com/">https://personas.draftbit.com/</a></li>
+<li><a href="https://getavataaars.com/">https://getavataaars.com/</a></li>
+<li><a href="https://www.drawkit.io/">https://www.drawkit.io/</a></li>
+</ul>
+<doc-anchor-target id="assets">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#assets">#</doc-anchor-trigger>
+        <span>Assets</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://github.com/markodenic/web-development-resources">https://github.com/markodenic/web-development-resources</a></li>
+<li><a href="https://github.com/gztchan/awesome-design">https://github.com/gztchan/awesome-design</a></li>
+</ul>
+<doc-anchor-target id="rsources">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rsources">#</doc-anchor-trigger>
+        <span>rsources</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://github.com/bradtraversy/design-resources-for-developers#html--css-templates">https://github.com/bradtraversy/design-resources-for-developers#html--css-templates</a></li>
+<li>resourceboy.com</li>
+<li>input : <a href="https://uiverse.io/">https://uiverse.io/</a></li>
+</ul>
+<doc-anchor-target id="practise">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#practise">#</doc-anchor-trigger>
+        <span>Practise</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="cssbattle.dev">CSS Battle</a></li>
+<li></li>
+</ul>
+<p>ggl: template: tailwind , astro , vue , react , free-css(html) ,</p>
+<ul>
+<li><a href="https://www.tailwindawesome.com/?price=free&amp;type=template">https://www.tailwindawesome.com/?price=free&amp;type=template</a></li>
+<li><a href="https://astro.build/themes/">https://astro.build/themes/</a></li>
+<li><a href="https://github.com/TailGrids/play-tailwind">https://github.com/TailGrids/play-tailwind</a></li>
+<li><a href="https://www.free-css.com/template-categories/alternative-power">https://www.free-css.com/template-categories/alternative-power</a></li>
+<li><a href="https://templatemo.com/">https://templatemo.com/</a></li>
+<li><a href="https://jamstackthemes.dev/">https://jamstackthemes.dev/</a></li>
+<li><a href="https://colorlib.com/wp/free-css-website-templates/">https://colorlib.com/wp/free-css-website-templates/</a></li>
+<li>DEV.to : <a href="https://dev.to/davidepacilio/35-free-react-templates-and-themes-32ci">https://dev.to/davidepacilio/35-free-react-templates-and-themes-32ci</a></li>
+<li><a href="https://bootstrapmade.com/">https://bootstrapmade.com/</a></li>
+<li><a href="https://statichunt.com/astro-themes">https://statichunt.com/astro-themes</a></li>
+<li><a href="https://themefisher.com/best-astro-themes">https://themefisher.com/best-astro-themes</a></li>
+</ul>
+<doc-anchor-target id="portfolio-">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#portfolio-">#</doc-anchor-trigger>
+        <span>portfolio :</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://github.com/realstoman/vuejs-tailwindcss-portfolio">https://github.com/realstoman/vuejs-tailwindcss-portfolio</a></li>
+<li><a href="https://github.com/cruip/open-react-template">https://github.com/cruip/open-react-template</a></li>
+<li><a href="https://github.com/MohamedYoussouf/carbon">https://github.com/MohamedYoussouf/carbon</a></li>
+<li><a href="https://www.builtatlightspeed.com/?themes%5BsortBy%5D=themes_price_desc&amp;themes%5BrefinementList%5D%5Bdistribution%5D%5B0%5D=free&amp;themes%5Bpage%5D=2">https://www.builtatlightspeed.com/?themes[sortBy]=themes_price_desc&amp;themes[refinementList][distribution][0]=free&amp;themes[page]=2</a></li>
+<li><a href="https://folioz.framer.website/#services">https://folioz.framer.website/#services</a></li>
+<li><a href="https://github.com/mhaecal/skilline-landing-pagei">https://github.com/mhaecal/skilline-landing-pagei</a></li>
+</ul>
+<doc-anchor-target id="icon">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#icon">#</doc-anchor-trigger>
+        <span>ICON</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>All : Iconify</li>
+<li>animated : lottieflow , useanimation.com</li>
+<li>normal : iconer , lordicon.com</li>
+<li><a href="https://phosphoricons.com/">https://phosphoricons.com/</a></li>
+</ul>
+<doc-anchor-target id="backgrounds">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#backgrounds">#</doc-anchor-trigger>
+        <span>Backgrounds:</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>List of websites for backgrounds: <a href="https://wweb.dev/resources/creative-backgrounds">https://wweb.dev/resources/creative-backgrounds</a></li>
+<li>SVG backgrounds: <a href="https://www.svgbackgrounds.com/">https://www.svgbackgrounds.com/</a></li>
+<li>Gradient Magic: <a href="https://www.gradientmagic.com/">https://www.gradientmagic.com/</a></li>
+<li>CSS moving background: <a href="https://codepen.io/Mamboleoo/full/BxMQYQ/">https://codepen.io/Mamboleoo/full/BxMQYQ/</a></li>
+<li>Triangle background generator: <a href="https://trianglify.io/">https://trianglify.io/</a></li>
+<li>WebGL backgrounds: <a href="https://www.vantajs.com/">https://www.vantajs.com/</a></li>
+<li>Gradients: <a href="https://cssgradient.io/gradient-backgrounds/">https://cssgradient.io/gradient-backgrounds/</a></li>
+<li>Various css background animations: <a href="https://freefrontend.com/css-animated-backgrounds/">https://freefrontend.com/css-animated-backgrounds/</a></li>
+<li>Free to use stock videos: <a href="https://mixkit.co">https://mixkit.co</a></li>
+<li>Background moving particles: <a href="https://vincentgarreau.com/particles.js/">https://vincentgarreau.com/particles.js/</a></li>
+<li>Icon pattern generator: <a href="https://pattern.flaticon.com/">https://pattern.flaticon.com/</a></li>
+<li>CSS Waves: <a href="https://csspoints.com/css-wave-effect-responsive-design/">https://csspoints.com/css-wave-effect-responsive-design/</a></li>
+<li>CSS Gradient Waves: <a href="https://www.outpan.com/app/9aaaf27303/svg-gradient-wave-generator">https://www.outpan.com/app/9aaaf27303/svg-gradient-wave-generator</a></li>
+<li>Animated CSS Background Generator: <a href="https://wweb.dev/resources/animated-css-background-generator">https://wweb.dev/resources/animated-css-background-generator</a></li>
+</ul>
+<doc-anchor-target id="animation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#animation">#</doc-anchor-trigger>
+        <span>Animation</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>animation : transition.css , animate.style , magic.css ,</li>
+</ul>
+<doc-anchor-target id="layout">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#layout">#</doc-anchor-trigger>
+        <span>Layout</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://cssgrid-generator.netlify.app/">Grid</a></li>
+</ul>
+<doc-anchor-target id="carosual">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#carosual">#</doc-anchor-trigger>
+        <span>Carosual</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://splidejs.com/guides/getting-started/">splide</a> : carousal</li>
+<li>swipper.js</li>
+<li>Glassmorphism : <a href="https://hype4.academy/">https://hype4.academy/</a></li>
+<li>neumorphism : <a href="https://neumorphism.io/#e0e0e0">https://neumorphism.io/#e0e0e0</a></li>
+<li>blob : bgjar.com , 9elements</li>
+<li>wave : getwaves</li>
+<li>load : 100l5.io , uiball.com ,</li>
+</ul>
+<doc-anchor-target id="stock-image">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#stock-image">#</doc-anchor-trigger>
+        <span>Stock Image</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://www.dreamstime.com/free-photos">https://www.dreamstime.com/free-photos</a></li>
+<li><a href="http://depositphotos.com/">http://depositphotos.com/</a></li>
+<li><a href="https://www.graphicstock.com">https://www.graphicstock.com</a></li>
+<li><a href="https://www.pexels.com/">https://www.pexels.com/</a></li>
+<li><a href="http://www.freeimages.com/">http://www.freeimages.com/</a></li>
+<li><a href="http://freerangestock.com/">http://freerangestock.com/</a></li>
+<li><a href="http://openphoto.net/">http://openphoto.net/</a></li>
+<li><a href="http://www.sxc.hu/">http://www.sxc.hu/</a></li>
+<li><a href="http://www.imagebase.net/">http://www.imagebase.net/</a></li>
+<li><a href="http://www.stockvault.net/">http://www.stockvault.net/</a></li>
+<li><a href="http://www.unprofound.com/">http://www.unprofound.com/</a></li>
+<li><a href="http://morguefile.com/">http://morguefile.com/</a></li>
+<li><a href="http://commons.wikimedia.org/wiki/Main_Page">http://commons.wikimedia.org/wiki/Main_Page</a></li>
+<li><a href="http://www.flickr.com/creativecommons/">http://www.flickr.com/creativecommons/</a></li>
+<li><a href="http://www.fotolia.com/Info/Images/FreeImages">http://www.fotolia.com/Info/Images/FreeImages</a></li>
+<li><a href="https://stocksnap.io/">https://stocksnap.io/</a></li>
+<li><a href="http://unsplash.com/">http://unsplash.com/</a></li>
+<li><a href="http://www.gratisography.com/">http://www.gratisography.com/</a></li>
+<li><a href="http://negativespace.co/">http://negativespace.co/</a></li>
+<li><a href="http://freestocks.org/">http://freestocks.org/</a></li>
+<li><a href="http://picography.co/">http://picography.co/</a></li>
+<li><a href="http://mmtstock.com/">http://mmtstock.com/</a></li>
+<li><a href="http://skitterphoto.com/">http://skitterphoto.com/</a></li>
+<li><a href="http://www.lifeofpix.com/">http://www.lifeofpix.com/</a></li>
+<li><a href="http://littlevisuals.co/">http://littlevisuals.co/</a></li>
+<li><a href="http://deathtothestockphoto.com/">http://deathtothestockphoto.com/</a></li>
+<li><a href="https://foodiesfeed.com/">https://foodiesfeed.com/</a></li>
+<li><a href="https://picjumbo.com/">https://picjumbo.com/</a></li>
+<li><a href="http://www.imcreator.com/free">http://www.imcreator.com/free</a></li>
+<li><a href="http://nos.twnsnd.co/">http://nos.twnsnd.co/</a></li>
+<li><a href="http://getrefe.tumblr.com/">http://getrefe.tumblr.com/</a></li>
+<li><a href="http://pixabay.com/">http://pixabay.com/</a></li>
+<li><a href="http://jaymantri.com/">http://jaymantri.com/</a></li>
+<li><a href="https://stock.tookapic.com/?filter=free">https://stock.tookapic.com/?filter=free</a></li>
+<li><a href="http://kaboompics.com/">http://kaboompics.com/</a></li>
+<li><a href="http://epicantus.tumblr.com/">http://epicantus.tumblr.com/</a></li>
+<li><a href="http://superfamous.com/">http://superfamous.com/</a></li>
+<li><a href="http://picjumbo.com/">http://picjumbo.com/</a></li>
+<li><a href="http://www.istockphoto.com/">http://www.istockphoto.com/</a></li>
+<li><a href="http://www.morguefile.com/">http://www.morguefile.com/</a></li>
+<li><a href="http://publicdomainarchive.com/">http://publicdomainarchive.com/</a></li>
+<li><a href="http://www.freedigitalphotos.net/">http://www.freedigitalphotos.net/</a></li>
+<li><a href="https://freerangestock.com/">https://freerangestock.com/</a></li>
+<li><a href="http://www.freestockphotos.biz/">http://www.freestockphotos.biz/</a></li>
+<li><a href="http://www.freeimages.co.uk/">http://www.freeimages.co.uk/</a></li>
+<li><a href="http://www.stockfreeimages.com/p1/.html">http://www.stockfreeimages.com/p1/.html</a></li>
+<li><a href="https://pixabay.com/">https://pixabay.com/</a></li>
+<li><a href="http://www.stockphotosforfree.com/">http://www.stockphotosforfree.com/</a></li>
+<li><a href="http://foter.com/">http://foter.com/</a></li>
+<li><a href="http://librestock.com">http://librestock.com</a></li>
+<li><a href="http://barnimages.com/">http://barnimages.com/</a></li>
+<li><a href="http://fancycrave.com/">http://fancycrave.com/</a></li>
+<li><a href="http://isorepublic.com/">http://isorepublic.com/</a></li>
+<li><a href="http://magdeleine.co/license/cc0/">http://magdeleine.co/license/cc0/</a></li>
+<li><a href="http://publicdomainreview.org/">http://publicdomainreview.org/</a></li>
+<li><a href="http://publicdomainvectors.org/">http://publicdomainvectors.org/</a></li>
+<li><a href="http://realisticshots.com/">http://realisticshots.com/</a></li>
+<li><a href="http://startupstockphotos.com/">http://startupstockphotos.com/</a></li>
+<li><a href="http://www.1millionfreepictures.com/">http://www.1millionfreepictures.com/</a></li>
+<li><a href="http://www.designerspics.com/">http://www.designerspics.com/</a></li>
+<li><a href="http://www.everystockphoto.com/">http://www.everystockphoto.com/</a></li>
+<li><a href="http://www.publicdomainpictures.net/">http://www.publicdomainpictures.net/</a></li>
+<li><a href="https://thepicpac.com/">https://thepicpac.com/</a></li>
+<li><a href="https://www.rawpixel.com/">https://www.rawpixel.com/</a></li>
+<li><a href="https://www.goodfreephotos.com/">https://www.goodfreephotos.com/</a></li>
+<li><a href="http://reyherphoto.com/free-stock-photos/">http://reyherphoto.com/free-stock-photos/</a></li>
+</ul>
+<doc-anchor-target id="general-tools">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#general-tools">#</doc-anchor-trigger>
+        <span>General Tools:</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Checklist: <a href="https://www.checkli.com">https://www.checkli.com</a></li>
+<li>Check text before posting: <a href="http://hemingwayapp.com/">http://hemingwayapp.com/</a></li>
+<li>Install multiple programs at once: <a href="https://ninite.com/">https://ninite.com/</a></li>
+<li>Free tools for devs: <a href="https://free-for.dev/#/">https://free-for.dev/#/</a></li>
+<li>List of tools: <a href="https://toolsformakers.com/">https://toolsformakers.com/</a></li>
+</ul>
+<doc-anchor-target id="image-tools">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#image-tools">#</doc-anchor-trigger>
+        <span>Image Tools:</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>SVG animations: <a href="https://svgartista.net/">https://svgartista.net/</a></li>
+<li>Convert images to SVG: <a href="https://convert2svg.com/">https://convert2svg.com/</a></li>
+<li>More animations: <a href="https://lottiefiles.com/">https://lottiefiles.com/</a></li>
+<li>Screenshots on devices mockups: <a href="https://mockup.photos/freebies">https://mockup.photos/freebies</a></li>
+<li>Screenshots to design mockup : <a href="https://www.screely.com/">https://www.screely.com/</a></li>
+<li>Design Mockup: <a href="https://www.figma.com/">https://www.figma.com/</a></li>
+<li>Sourcecode to image: <a href="https://carbon.now.sh">https://carbon.now.sh</a></li>
+<li>Image compressor: <a href="https://squoosh.app/">https://squoosh.app/</a></li>
+<li>Image compressor: <a href="https://compressor.io/">https://compressor.io/</a></li>
+<li>Record Gifs: <a href="https://www.cockos.com/licecap/">https://www.cockos.com/licecap/</a></li>
+<li>Remove background from image: <a href="https://www.remove.bg/">https://www.remove.bg/</a></li>
+<li>Icon creator: <a href="https://gauger.io/fonticon/">https://gauger.io/fonticon/</a></li>
+<li>Diagrams: <a href="https://www.draw.io/">https://www.draw.io/</a></li>
+<li>Avatar placeholder generator: <a href="https://avatars.dicebear.com/">https://avatars.dicebear.com/</a></li>
+<li>Aspect ratio calculator: <a href="https://calculateaspectratio.com/">https://calculateaspectratio.com/</a></li>
+</ul>
+<doc-anchor-target id="webdev-stuff">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#webdev-stuff">#</doc-anchor-trigger>
+        <span>Webdev Stuff:</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Static Site Generators Overview: <a href="https://www.staticgen.com/">https://www.staticgen.com/</a></li>
+<li>Test for Accessibility: <a href="https://wave.webaim.org">https://wave.webaim.org</a></li>
+<li>Forms without backend: <a href="https://usebasin.com/">https://usebasin.com/</a></li>
+<li>Locale certificates (https): <a href="https://github.com/FiloSottile/mkcert">https://github.com/FiloSottile/mkcert</a></li>
+<li>PWA generator: <a href="https://www.pwabuilder.com/">https://www.pwabuilder.com/</a></li>
+<li>Links for website testing: <a href="https://adamgreenough.me/blog/free-online-testing-tools-for-your-website/">https://adamgreenough.me/blog/free-online-testing-tools-for-your-website/</a></li>
+<li>Self hosted email list: <a href="https://listmonk.app/">https://listmonk.app/</a></li>
+<li>Animated Icons: <a href="https://lordicon.com/">https://lordicon.com/</a></li>
+<li>React Codebase Generator: <a href="https://divjoy.com/">https://divjoy.com/</a></li>
+</ul>
+<doc-anchor-target id="css-stuff">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#css-stuff">#</doc-anchor-trigger>
+        <span>CSS Stuff:</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Generator for CSS separators: <a href="https://wweb.dev/resources/css-separator-generator">https://wweb.dev/resources/css-separator-generator</a></li>
+<li>CSS animation generator: <a href="http://animista.net/play/basic">http://animista.net/play/basic</a></li>
+<li>CSS Fix browser defaults: <a href="https://github.com/kognise/water.css">https://github.com/kognise/water.css</a></li>
+<li>Augumented UI: <a href="http://augmented-ui.com/">http://augmented-ui.com/</a></li>
+<li>NES CSS framework: <a href="https://bcrikko.github.io/NES.css/">https://bcrikko.github.io/NES.css/</a></li>
+<li>Generate clip-path: <a href="https://bennettfeely.com/clippy/">https://bennettfeely.com/clippy/</a></li>
+</ul>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../frontend/tailwind/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Tailwind</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2024. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "UI", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
