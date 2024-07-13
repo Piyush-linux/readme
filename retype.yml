@@ -2,7 +2,8 @@ input: .
 output: .retype
 url: piyush-linux.github.io 
 branding:
-  title: Project Name
+  logo: static/logo.svg
+  title: Readme
   label: Docs
 links:
 - text: Getting Started

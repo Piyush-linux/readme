@@ -8,7 +8,7 @@ sudo npm install retypeapp --global
 git clone <repo>
 cd <repo>
 retype start
-retype build
+bash deploy.sh 
 ```
 
 ## Sitemap

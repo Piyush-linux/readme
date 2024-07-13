@@ -1,5 +1,27 @@
 # UI
 
+## Web Design Templates
+- https://www.pinterest.com/
+- https://elements.envato.com/web-templates
+- https://getpublii.com/showcase/
+- https://fresh.deno.dev/showcase
+- https://statichunt.com/jekyll-themes
+- https://www.toools.design/ui-web-design-inspiration-websites
+- https://uiverse.io/
+- https://landings.dev/
+- https://uigarage.net/
+- https://www.landingfolio.com/
+- https://dribbble.com/search/business
+- https://tympanus.net/codrops/
+- https://www.behance.net/
+- https://onepagelove.com/
+- https://land-book.com/gallery
+- https://pixelarity.com/
+- https://smarteyeapps.com/free-website-templates?page=2
+- https://www.themevault.net/
+- https://jekyll-themes.com/free
+- https://themejam.gatsbyjs.org/showcase/
+
 ## HTML Templates
 - https://htmltemplates.co/
 - https://themewagon.com/theme-price/free/
@@ -29,28 +51,6 @@
 - https://hexo.io/themes/
 - https://html5up.net/
 
-## Web Design Templates
-- Pinterest
-- https://themejam.gatsbyjs.org/showcase/
-- 
-- https://elements.envato.com/web-templates
-- https://getpublii.com/showcase/
-- https://fresh.deno.dev/showcase
-- https://statichunt.com/jekyll-themes
-- https://www.toools.design/ui-web-design-inspiration-websites
-- https://uiverse.io/
-- https://landings.dev/
-- https://uigarage.net/
-- https://www.landingfolio.com/
-- https://dribbble.com/search/business
-- https://tympanus.net/codrops/
-- https://www.behance.net/
-- https://onepagelove.com/
-- https://land-book.com/gallery
-- https://pixelarity.com/
-- https://smarteyeapps.com/free-website-templates?page=2
-- https://www.themevault.net/
-- https://jekyll-themes.com/free
 
 ## Illustration
 
