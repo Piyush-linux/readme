@@ -5,6 +5,15 @@ branding:
   logo: static/logo.svg
   title: Readme
   label: Docs
+search:
+   preload: true 
+   maxResults: 20
+generator:
+  directoryIndex:
+    append: true
+snippets:
+  lineNumbers:
+    - '*'
 links:
 - text: Getting Started
   link: https://retype.com/guides/getting-started/

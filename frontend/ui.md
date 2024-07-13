@@ -104,8 +104,7 @@
 - input : https://uiverse.io/
 
 ## Practise
-- [CSS Battle](cssbattle.dev)
-- 
+- [CSS Battle](https://cssbattle.dev)
 
 ggl: template: tailwind , astro , vue , react , free-css(html) , 
 
