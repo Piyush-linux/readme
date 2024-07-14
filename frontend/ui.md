@@ -21,6 +21,8 @@
 - https://www.themevault.net/
 - https://jekyll-themes.com/free
 - https://themejam.gatsbyjs.org/showcase/
+- https://madewithreact.com/
+- https://madewithvuejs.com/
 
 ## HTML Templates
 - https://htmltemplates.co/
