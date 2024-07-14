@@ -5,7 +5,7 @@
 - https://elements.envato.com/web-templates
 - https://getpublii.com/showcase/
 - https://fresh.deno.dev/showcase
-- https://statichunt.com/jekyll-themes
+- https://statichunt.com
 - https://www.toools.design/ui-web-design-inspiration-websites
 - https://uiverse.io/
 - https://landings.dev/
