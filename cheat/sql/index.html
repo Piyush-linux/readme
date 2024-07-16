@@ -10,21 +10,21 @@
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Docker</title>
-    <meta name="title" content="Docker">
+    <title>SQL</title>
+    <meta name="title" content="SQL">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://piyush-linux.github.io/readme/cheat/docker/index.html">
+    <link rel="canonical" href="https://piyush-linux.github.io/readme/cheat/sql/index.html">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://piyush-linux.github.io/readme/cheat/docker/index.html">
-    <meta property="og:title" content="Docker">
+    <meta property="og:url" content="https://piyush-linux.github.io/readme/cheat/sql/index.html">
+    <meta property="og:title" content="SQL">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://piyush-linux.github.io/readme/cheat/docker/index.html">
-    <meta property="twitter:title" content="Docker">
+    <meta property="twitter:url" content="https://piyush-linux.github.io/readme/cheat/sql/index.html">
+    <meta property="twitter:title" content="SQL">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -167,24 +167,44 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="docker" class="break-words">
+<doc-anchor-target id="sql" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#docker">#</doc-anchor-trigger>
-        <span>Docker</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sql">#</doc-anchor-trigger>
+        <span>SQL</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="docker-postgres-setup">
+<doc-anchor-target id="commands">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#docker-postgres-setup">#</doc-anchor-trigger>
-        <span>Docker Postgres Setup</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#commands">#</doc-anchor-trigger>
+        <span>Commands</span>
     </h2>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock line-numbers>
-<pre class="language-bash"><code v-pre class="language-bash">sudo docker pull postgres
-sudo docker volume create postgres_data
-sudo docker run --name postgres_container -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 -v postgres_data:/var/lib/postgresql/data postgres
-sudo docker container start postgres_container
-# POSTGRES_URL = postgresql://postgres:mysecretpassword@localhost:5432/foodie</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">\q # To quit the psql:
+\l # List all databases 
+\dv # List all views:
+\dt # Lists all tables in a current database. 
+\du # List all users</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="database">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#database">#</doc-anchor-trigger>
+        <span>Database</span>
+    </h2>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-bash"><code v-pre class="language-bash">CREATE DATABASE [IF NOT EXISTS] db_name;
+DROP DATABASE [IF EXISTS] db_name;
+</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="tabls">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tabls">#</doc-anchor-trigger>
+        <span>Tabls</span>
+    </h2>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-bash"><code v-pre class="language-bash">SELECT * FROM table_name;</code></pre>
 </doc-codeblock></div>
 
                                 
@@ -195,20 +215,20 @@ sudo docker container start postgres_container
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../index.html">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../cheat/docker/index.html">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Index</span>
+                                                <span class="block mt-1">Docker</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../cheat/sql/index.html">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../frontend/tailwind/index.html">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">SQL</span>
+                                                <span class="block mt-1">Tailwind</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -252,6 +272,6 @@ sudo docker container start postgres_container
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Docker", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "SQL", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
