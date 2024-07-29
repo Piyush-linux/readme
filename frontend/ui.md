@@ -1,6 +1,8 @@
 # UI
 
 ## Web Design Templates
+- https://dev.to/devluc/50-best-websites-for-web-design-inspiration-and-ideas-be6
+- https://websitevice.com/
 - https://www.pinterest.com/
 - https://elements.envato.com/web-templates
 - https://getpublii.com/showcase/
