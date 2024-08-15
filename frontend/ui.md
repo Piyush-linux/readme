@@ -56,6 +56,17 @@
 - https://html5up.net/
 
 
+## Colors
+- Test : https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Inter-Inter
+- https://colorhunt.co/
+- https://coolors.co/
+- https://flatuicolors.com/
+- https://materialui.co
+- gradient : 
+	- http://elrumordelaluz.github.io/draGGradients/#
+	- http://thewebrocks.com/demos/gradientsio/v2.html
+
+
 ## Illustration
 
 - ill : pixcap.com
