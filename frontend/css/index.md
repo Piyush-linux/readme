@@ -2,8 +2,13 @@
 
 - Position
 - @LunDevCode
-- Scroll, Font-Size
+- Scroll, 
+- Font Responsive / Font-Size 
 - Animation : css, tailwind
+- Image
+- Bg
+- Color
+- SVG
 
 ```
 .div
