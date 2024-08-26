@@ -148,6 +148,9 @@ ggl: template: tailwind , astro , vue , react , free-css(html) ,
 - animated : lottieflow , useanimation.com
 - normal : iconer , lordicon.com
 - https://phosphoricons.com/
+- #D: https://3dicons.co/?ref=dailydev
+- css.gg
+- 
 
 
 
