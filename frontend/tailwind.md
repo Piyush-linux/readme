@@ -1,5 +1,6 @@
 # Tailwind
 
+- https://www.tailbits.com/
 - https://treact.owaiskhan.me/
 - https://www.tailwindtoolbox.com/templates/landing-page
 - https://tailus.io/templates
