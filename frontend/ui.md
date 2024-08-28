@@ -150,7 +150,7 @@ ggl: template: tailwind , astro , vue , react , free-css(html) ,
 - https://phosphoricons.com/
 - #D: https://3dicons.co/?ref=dailydev
 - css.gg
-- 
+- Iometric : https://www.isocons.app/
 
 
 
