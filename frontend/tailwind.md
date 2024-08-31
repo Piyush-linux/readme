@@ -22,7 +22,7 @@
 ## List of Tialwind Components
 > ui , comp
 
-
+- https://uiverse.io/elements
 - https://github.com/unlight/tailwind-components
 - https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
 - https://tailwindcomponents.com/
