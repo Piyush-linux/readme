@@ -17,10 +17,19 @@ github awesome <TOPIC>
 - https://itsfoss.com/
 - github.com
 
-## Shots
-
+## Screen Shots
+- https://postspark.app
+- ray.so
+ 
 ### Mockup
-- https://shots.so/
+- https://shots.so/ 
 
-### Code 
-- ray.so 
+### note taking
+- https://github.com/AppFlowy-IO/AppFlowy
+
+### backend 
+- https://pocketbase.io/
+
+### ecom
+- https://www.prestashop-project.org/
+- https://erpnext.com/ @ERP
