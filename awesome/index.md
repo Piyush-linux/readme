@@ -11,6 +11,12 @@ github awesome <TOPIC>
 - https://webcurate.co/
 - https://thenextaitool.com/
 
+## Opensource
+- https://www.openapk.net/
+- https://gofoss.net/
+- https://itsfoss.com/
+- github.com
+
 ## Shots
 
 ### Mockup
