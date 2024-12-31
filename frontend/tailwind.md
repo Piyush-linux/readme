@@ -1,5 +1,8 @@
 # Tailwind
 
+## Awesome
+- https://tailgrids.com/blog/tailwind-resources
+
 - https://www.tailbits.com/
 - https://treact.owaiskhan.me/
 - https://www.tailwindtoolbox.com/templates/landing-page
