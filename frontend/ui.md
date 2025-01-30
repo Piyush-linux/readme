@@ -145,7 +145,7 @@ ggl: template: tailwind , astro , vue , react , free-css(html) ,
 
 ## ICON
 - All : Iconify
-- animated : lottieflow , useanimation.com
+- animated icons : lottieflow , useanimation.com, https://unicornicons.com/icons
 - normal : iconer , lordicon.com
 - https://phosphoricons.com/
 - #D: https://3dicons.co/?ref=dailydev
