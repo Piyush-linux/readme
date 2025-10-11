@@ -1,0 +1,2 @@
+- dev - https://oakharborwebdesigns.com/blog/
+- security - https://www.linkedin.com/pulse/how-hackers-really-track-you-using-nearby-devices-mritunjay-singh-zdtpf/
