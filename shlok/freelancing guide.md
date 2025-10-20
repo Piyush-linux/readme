@@ -1,2 +1,3 @@
 - The complete guide - https://codestitch.app/complete-guide-to-freelancing#finding-clients
 - Page speed - https://codestitch.app/page-speed-handbook
+- Find categories & businesses - https://www.justdial.com/
